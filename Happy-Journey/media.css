@@ -1,0 +1,265 @@
+/* big-desktop */
+@media (max-width: 112.5em){
+    html{
+        font-size: 75%;
+    }
+}
+
+/* tab-land */
+@media (max-width:75em){
+    html{
+        font-size: 56.25%;
+    }
+
+    .offers, .whychooseus{
+        padding: 5vh;
+    }
+
+    .offer__content{
+        gap: 5rem;
+        padding: 4rem 5rem;
+    }
+
+    .image__container{
+        height: 30vh;
+    }
+
+    .offer__image{
+        height: 30vh;
+    }
+
+    /* aboutus */
+
+    .aboutus{
+        padding: 6rem;
+    }
+    .aboutus__image{
+        height: 30vh;
+        /* object-fit: cover; */
+    }
+}
+
+/*tab-port */
+@media (max-width:56.25em){ 
+    html{
+        font-size: 50%;
+    }
+
+    .offer__content{
+        gap: 3rem;
+        padding: 4rem 6rem;
+    }
+
+    .image__container{
+        height: 30vh;
+    }
+
+    .offer__image{
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .aboutus{
+        padding: 6vh;
+    }
+
+    /* contact us*/
+
+    .contactus__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 7rem 0 0 0;
+    }
+
+    .form__control{
+        width: 40%;
+    }
+
+    .form__label{
+        font-size: 2rem;
+    }
+
+    .form__input:focus{
+        font-size: 2rem;
+    }
+
+    .form__input::placeholder{
+        font-size: 2rem;
+    }
+
+    .form__input:focus + .form__label,
+.form__input.not-empty + .form__label {
+    opacity: 1;
+    transform: translateY(-150%);
+}
+
+    .maps{
+        width: 100%;
+    }
+
+    .maps iframe{
+        width: 100%;
+    }
+
+    /* Login page*/
+
+    .signin__header .header__content{
+        width: 100vw;
+        height: 50vh;
+        border-bottom-left-radius: 100%;
+        border-bottom-right-radius: 100%;
+        border-top-right-radius: 0;
+        transform: scale(2);
+        left: -5%;
+        top: -20%;
+    }
+
+    .signin__header .header__content .header__title{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+    }
+
+    .logo__background{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .login__form{
+        width: 60%;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        font-size: 4rem;
+    }
+
+    .login__form form{
+        width: 80%;
+    }
+
+    .registration__link{
+        font-size: 2rem;
+    }
+
+    .register__form{
+        width: 80rem;
+        left: 55%;
+    }
+}
+
+/*Phone*/
+@media (max-width:37.5em){ 
+
+
+    .contactus__title .header__text, .header__text{
+        font-size: 3rem;
+    }
+
+    .header__title{
+        font-size: 2rem;
+    }
+
+    .header__content{
+        padding: 5rem 3rem;
+    }
+
+    .offer__container, .aboutus__content{
+        grid-template-columns: 1fr;
+        padding: 4rem 4rem;
+    }
+
+    .offer__text--1{
+        grid-row: 1 / 2;
+    }
+
+    .offer__text--2{
+        grid-row: 3 / 4;
+    }
+
+    .offer__text--3{
+        grid-row: 5 / 6;
+    }
+
+    .image__container--1{
+        grid-row: 2 / 3;
+    }
+
+    .image__container--2{
+        grid-row: 4 / 5;
+    }
+
+    .image__container--3{
+        grid-row: 6 / 7;
+    }
+
+    .chooseus__content{
+        grid-template-columns: 1fr;
+        padding: 0 5rem;
+    }
+
+    .title{
+        height: 50vh;
+    }
+
+    .title .header__text{
+        font-size: 3rem;
+    }
+
+    .aboutus{
+        padding: 4rem;
+    }
+
+    .aboutus__text--1{
+        grid-row: 1 / 2;
+    }
+
+    .aboutus__text--2{
+        grid-row: 3 / 4;
+    }
+
+    .aboutus__text--3{
+        grid-row: 5 / 6;
+    }
+
+    .aboutus__image--1{
+        grid-row: 2 / 3;
+    }
+
+    .aboutus__image--2{
+        grid-row: 4 / 5;
+    }
+
+    .aboutus__image--3{
+        grid-row: 6 / 7;
+    }
+
+    /* contact us*/
+
+    .contactus__title{
+        height: 50vh;
+    }
+
+    /* .contactus__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .form__control{
+        width: 50%;
+    }
+    
+    .register__form{
+        width: 60rem;
+        top: 60%;
+        left: 55%;
+    }
+}
+
+
